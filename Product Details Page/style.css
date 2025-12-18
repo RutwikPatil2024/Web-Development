@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.product-photo{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #E0E0E0;
+}
+
+.product-details{
+    background-color: #f7f7f7;
+    height: 100vh;
+    padding: 15px;
+}
+
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+button{
+    padding: 13px 20px;
+    
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-cart{
+    background-color: rgb(236, 201, 1);
+    border: none;
+    font-weight: 550;
+    color: rgb(231, 231, 231);
+    border-radius: 10px;
+    width: 160px;
+}
+
+.btn-buy{
+    background-color: rgb(236, 158, 1);
+    border: none;
+    font-weight: 550;
+    color: rgb(231, 231, 231);
+    border-radius: 10px;
+    width: 160px;
+}
+
+h3{
+    font-weight: 450;
+    
+}
+
+.rating{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    height: 30px;
+}
+
+.rating-review{
+    font-size: 16px;
+    color: #565959;
+    margin: 10px 0;
+    display: inline;
+}
+
+.rating-review .separator{
+    margin: 0px 4px;
+}
+
+.rating-star{
+    display: inline;
+    background-color: #1B9C24;;
+    padding: 3px 2px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.star-symbol{
+    font-size: 16px;
+}
+
+.offer-text{
+    color: #1B9C24;
+    font-weight: 600;
+    display: block;
+}
+
+.price{
+    margin-top: 10px;
+}
+
+.discount-price{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.original-price{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: #565959;
+    margin-left: 15px;
+}
+
+.discount{
+    font-size: 16px;
+    color: #1B9C24;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.offer-available{
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 10px;
+}
+
+.offers-list{
+    list-style: none;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.bank{
+    font-weight: 550;
+}
+
+.special-price{
+    font-weight: 550;
+}
+
+.offers-list li a{
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.more-offer{
+    color: #2874F0;
+    margin-top: 10px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.price-box{
+    width: 420px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    
+}
+
+.option input{
+    margin-right: 10px;
+}
+
+.text{
+    flex: 1;
+    margin-left: 8px;
+}
+
+.price{
+    font-weight: 600;
+}
+
+.discount2{
+    color: #878787;
+    font-size: 13px;
+}
+
+.note{
+    color: #d32f2f;
+    font-size: 13px;
+    padding: 10px 15px;
+    font-weight: 520;
+}
