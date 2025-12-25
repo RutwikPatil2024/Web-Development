@@ -1,0 +1,61 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+    margin: 25px 0px;
+    display: flex;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 5px 15px black;
+}
+
+.card {
+    transition: box-shadow 0.3s ease;
+}
+
+.card h3 {
+    transition: color 0.4s ease;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 20px black;
+    cursor: pointer;
+}
+
+.card:hover h3 {
+    color: cyan;
+}
+
+
+p{
+    line-height: 20px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+h2{
+    margin: 15px;
+}
